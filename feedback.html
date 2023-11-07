@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Page</title>
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Thanks for share it with us!</h1>
+  
+  <form id="feedback-form">
+    <p>Name: <input type="text" id="name" placeholder="Your Name" required></p>
+    <br>
+    <p>My top 5 make up list: </p>
+    <ol>
+      <li>
+        <label for="searchName">Product name: </label>
+        <input type="text" id="searchName1" placeholder="Enter product's name">
+        <br>
+      </li>
+      <li>
+        <label for="searchName">Product name: </label>
+        <input type="text" id="searchName2" placeholder="Enter product's name">
+        <br>
+      </li>
+      <li>
+        <label for="searchName">Product name: </label>
+        <input type="text" id="searchName3" placeholder="Enter product's name">
+        <br>
+      </li>
+      <li>
+        <label for="searchName">Product name: </label>
+        <input type="text" id="searchName4" placeholder="Enter product's name">
+        <br>
+      </li>
+      <li>
+        <label for="searchName">Product name: </label>
+        <input type="text" id="searchName5" placeholder="Enter product's name">
+        <br>
+      </li>
+    </ol>
+    <p>Feedback: <textarea id="message" placeholder="Your Feedback" required></textarea></p>
+    <button type="submit" id="done-button">Done</button>
+  </form>
+
+  <div id="feedback-list">
+    <h2>Feedbacks:</h2>
+    <ul id="feedback-items"></ul>
+  </div>
+
+  <button onclick="backHome()">Home</button>
+
+  <script src="feedback.js"></script>
+</body>
+</html>

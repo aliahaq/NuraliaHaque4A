@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(images/fb3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #9c8175;
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    text-shadow: 2px 2px 2px #4f3529;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffffed;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #ffffff6e;
+}
+
+form p{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#feedback-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#feedback-items {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fce3e3;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', serif;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
